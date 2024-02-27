@@ -1,0 +1,40 @@
+{
+  "name": "@iicoding/utils-node",
+  "version": "0.0.3",
+  "description": "",
+  "main": "dist/cjs/index.js",
+  "types": "dist/esm/index.d.ts",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "push": "node script.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tddtest/utils-node.git"
+  },
+  "keywords": [
+    "utils",
+    "js utils",
+    "node utils"
+  ],
+  "bugs": {
+    "url": "https://github.com/Tddtest/utils-node/issues"
+  },
+  "homepage": "https://github.com/Tddtest/utils-node#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@iicoding/utils": "0.0.39",
+    "chalk": "4.1.2",
+    "decimal.js": "^10.4.3",
+    "fs-extra": "^11.2.0",
+    "ora": "5.4.1"
+  },
+  "devDependencies": {
+    "@iicoding/release": "latest"
+  }
+}
